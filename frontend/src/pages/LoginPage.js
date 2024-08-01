@@ -74,10 +74,10 @@ const LoginPage = ({ role }) => {
     };
 
     const guestModeHandler = () => {
-        const password = "zxc"
+        const password = "8709737437"
 
         if (role === "Admin") {
-            const email = "yogendra@12"
+            const email = "hola@gmail.com"
             const fields = { email, password }
             setGuestLoader(true)
             dispatch(loginUser(fields, role))
